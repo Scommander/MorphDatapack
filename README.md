@@ -1,4 +1,4 @@
-# PACK_NAME Datapack | [Download](LINK_TO_RELEASES)
+# Morph Datapack | [Download](https://github.com/Scommander/MorphDatapack/releases)
 
 **If using this creation in a video I ask that you paste the following into your description:**
 
@@ -8,11 +8,11 @@
 
 ## Introduction
 
-* EXPLAIN DATAPACK
+* This morph datapack adds (almost) every single mob into the game as a valid morph. All totally multiplayer comptible! I'd recommend watching the showcase video on my YouTube channel to understand how to use the pack. LINK TO BE ADDED
 
 ## How to Use & Information
 
-* INFORMATION ON DATAPACK
+* This is totally multiplayer compatible. Once morphs have been unlocked look straight and sneak. This will bring up the morph menu in chat. This datapack is made for 1.17+
 
 ## Installation
 
