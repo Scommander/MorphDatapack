@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "ghast": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ghast"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/ghast"
+    }
+}

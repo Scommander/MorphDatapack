@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "cattamed0": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cat",
+                    "nbt": "{Tags:[mrph_not_tamed]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/cattamed0"
+    }
+}

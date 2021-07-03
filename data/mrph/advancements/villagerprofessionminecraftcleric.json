@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagerprofessionminecraftcleric": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{profession:'minecraft:cleric'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagerprofessionminecraftcleric"
+    }
+}

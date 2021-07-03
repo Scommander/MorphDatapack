@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "zombified_piglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombified_piglin"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/zombified_piglin"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "spider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:spider"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/spider"
+    }
+}

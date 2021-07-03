@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagerprofessionminecraftlibrarian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{profession:'minecraft:librarian'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagerprofessionminecraftlibrarian"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "zombie_villager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_villager"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/zombie_villager"
+    }
+}

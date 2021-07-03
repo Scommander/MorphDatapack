@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "stray": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:stray"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/stray"
+    }
+}

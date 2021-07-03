@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "drownedisbaby0": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:drowned",
+                    "nbt": "{IsBaby:0}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/drownedisbaby0"
+    }
+}

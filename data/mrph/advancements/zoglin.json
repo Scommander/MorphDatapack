@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "zoglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zoglin"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/zoglin"
+    }
+}

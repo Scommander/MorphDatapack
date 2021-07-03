@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "ocelotage-2147483648": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ocelot",
+                    "nbt": "{Tags:[mrph_is_baby]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/ocelotage-2147483648"
+    }
+}

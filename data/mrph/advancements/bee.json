@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "bee": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:bee"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/bee"
+    }
+}

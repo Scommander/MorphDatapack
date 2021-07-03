@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagertypeminecraftdesert": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:'minecraft:desert'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagertypeminecraftdesert"
+    }
+}

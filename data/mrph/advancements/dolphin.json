@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "dolphin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:dolphin"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/dolphin"
+    }
+}

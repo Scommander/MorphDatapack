@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "mooshroomage1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:mooshroom",
+                    "nbt": "{Tags:[mrph_not_baby]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/mooshroomage1"
+    }
+}

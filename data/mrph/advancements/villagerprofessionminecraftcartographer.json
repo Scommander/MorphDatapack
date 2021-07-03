@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagerprofessionminecraftcartographer": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{profession:'minecraft:cartographer'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagerprofessionminecraftcartographer"
+    }
+}

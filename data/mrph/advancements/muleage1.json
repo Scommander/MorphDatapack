@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "muleage1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:mule",
+                    "nbt": "{Tags:[mrph_not_baby]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/muleage1"
+    }
+}

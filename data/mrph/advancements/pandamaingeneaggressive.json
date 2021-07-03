@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "pandamaingeneaggressive": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene:aggressive}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/pandamaingeneaggressive"
+    }
+}

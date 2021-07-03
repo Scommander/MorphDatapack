@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagerprofessionminecraftweaponsmith": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{profession:'minecraft:weaponsmith'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagerprofessionminecraftweaponsmith"
+    }
+}

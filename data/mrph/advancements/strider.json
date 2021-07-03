@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "strider": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:strider"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/strider"
+    }
+}

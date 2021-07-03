@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "vindicator": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:vindicator"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/vindicator"
+    }
+}

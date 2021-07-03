@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagertypeminecraftjungle": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:'minecraft:jungle'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagertypeminecraftjungle"
+    }
+}

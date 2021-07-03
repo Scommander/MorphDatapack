@@ -1,0 +1,9 @@
+execute if score @s mrph_paadd1 matches 1 run data merge entity @e[tag=mrph_new,limit=1,distance=..1] {MainGene:normal}
+execute if score @s mrph_paadd1 matches 2 run data merge entity @e[tag=mrph_new,limit=1,distance=..1] {MainGene:aggressive}
+execute if score @s mrph_paadd1 matches 3 run data merge entity @e[tag=mrph_new,limit=1,distance=..1] {MainGene:lazy}
+execute if score @s mrph_paadd1 matches 4 run data merge entity @e[tag=mrph_new,limit=1,distance=..1] {MainGene:worried}
+execute if score @s mrph_paadd1 matches 5 run data merge entity @e[tag=mrph_new,limit=1,distance=..1] {MainGene:playful}
+execute if score @s mrph_paadd1 matches 6 run data merge entity @e[tag=mrph_new,limit=1,distance=..1] {MainGene:weak}
+execute if score @s mrph_paadd1 matches 7 run data merge entity @e[tag=mrph_new,limit=1,distance=..1] {MainGene:brown}
+execute if score @s mrph_paadd2 matches 1 run data merge entity @e[tag=mrph_new,limit=1,distance=..1] {Age:1}
+execute if score @s mrph_paadd2 matches 2 run data merge entity @e[tag=mrph_new,limit=1,distance=..1] {Age:-2147483648}

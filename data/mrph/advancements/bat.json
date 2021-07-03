@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "bat": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:bat"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/bat"
+    }
+}

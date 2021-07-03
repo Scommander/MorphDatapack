@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "slimesize3": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:slime",
+                    "nbt": "{Size:3}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/slimesize3"
+    }
+}

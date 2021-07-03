@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "sheepcolor10b": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:sheep",
+                    "nbt": "{Color:10b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/sheepcolor10b"
+    }
+}

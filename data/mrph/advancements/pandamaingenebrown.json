@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "pandamaingenebrown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene:brown}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/pandamaingenebrown"
+    }
+}

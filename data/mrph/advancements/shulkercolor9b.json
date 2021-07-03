@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "shulkercolor9b": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:shulker",
+                    "nbt": "{Color:9b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/shulkercolor9b"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "zombie_horseage1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_horse",
+                    "nbt": "{Tags:[mrph_not_baby]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/zombie_horseage1"
+    }
+}

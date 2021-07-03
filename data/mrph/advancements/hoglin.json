@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "hoglin": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:hoglin"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/hoglin"
+    }
+}

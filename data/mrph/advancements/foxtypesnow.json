@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "foxtypesnow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:fox",
+                    "nbt": "{Type:snow}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/foxtypesnow"
+    }
+}

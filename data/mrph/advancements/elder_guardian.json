@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "elder_guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:elder_guardian"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/elder_guardian"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "guardian": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:guardian"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/guardian"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "horsevariant512": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:horse",
+                    "nbt": "{Variant:512}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/horsevariant512"
+    }
+}

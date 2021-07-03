@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "pillager": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pillager"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/pillager"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagerprofessionminecraftshepherd": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{profession:'minecraft:shepherd'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagerprofessionminecraftshepherd"
+    }
+}

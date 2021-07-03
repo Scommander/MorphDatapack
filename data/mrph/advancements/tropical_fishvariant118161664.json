@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "tropical_fishvariant118161664": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:tropical_fish",
+                    "nbt": "{Variant:118161664}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/tropical_fishvariant118161664"
+    }
+}

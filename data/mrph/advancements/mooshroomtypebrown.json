@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "mooshroomtypebrown": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:mooshroom",
+                    "nbt": "{Type:brown}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/mooshroomtypebrown"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagerprofessionminecraftleatherworker": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{profession:'minecraft:leatherworker'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagerprofessionminecraftleatherworker"
+    }
+}

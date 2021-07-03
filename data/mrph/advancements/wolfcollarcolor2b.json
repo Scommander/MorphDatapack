@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "wolfcollarcolor2b": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wolf",
+                    "nbt": "{CollarColor:2b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/wolfcollarcolor2b"
+    }
+}

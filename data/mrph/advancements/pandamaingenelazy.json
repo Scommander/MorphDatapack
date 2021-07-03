@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "pandamaingenelazy": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene:lazy}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/pandamaingenelazy"
+    }
+}

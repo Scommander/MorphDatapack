@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "salmon": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:salmon"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/salmon"
+    }
+}

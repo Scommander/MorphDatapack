@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "foxage1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:fox",
+                    "nbt": "{Tags:[mrph_not_baby]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/foxage1"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "pandamaingeneweak": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene:weak}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/pandamaingeneweak"
+    }
+}

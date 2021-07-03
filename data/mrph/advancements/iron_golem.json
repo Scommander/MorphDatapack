@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "iron_golem": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:iron_golem"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/iron_golem"
+    }
+}

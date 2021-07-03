@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagertypeminecraftswamp": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:'minecraft:swamp'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagertypeminecraftswamp"
+    }
+}

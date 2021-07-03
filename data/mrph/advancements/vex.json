@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "vex": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:vex"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/vex"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagerprofessionminecraftfisherman": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{profession:'minecraft:fisherman'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagerprofessionminecraftfisherman"
+    }
+}

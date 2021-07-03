@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagertypeminecraftsavanna": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:'minecraft:savanna'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagertypeminecraftsavanna"
+    }
+}

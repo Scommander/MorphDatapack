@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "polar_bear": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:polar_bear"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/polar_bear"
+    }
+}

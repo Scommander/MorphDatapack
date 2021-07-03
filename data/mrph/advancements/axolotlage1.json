@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "axolotlage1": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:axolotl",
+                    "nbt": "{Tags:[mrph_not_baby]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/axolotlage1"
+    }
+}

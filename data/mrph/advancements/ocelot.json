@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "ocelot": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:ocelot"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/ocelot"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "rabbitage-2147483648": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:rabbit",
+                    "nbt": "{Tags:[mrph_is_baby]}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/rabbitage-2147483648"
+    }
+}

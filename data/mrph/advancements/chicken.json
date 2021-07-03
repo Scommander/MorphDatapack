@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "chicken": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:chicken"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/chicken"
+    }
+}

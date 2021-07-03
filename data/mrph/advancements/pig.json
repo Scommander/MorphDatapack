@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "pig": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pig"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/pig"
+    }
+}

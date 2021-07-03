@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagertypeminecraftsnow": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:'minecraft:snow'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagertypeminecraftsnow"
+    }
+}

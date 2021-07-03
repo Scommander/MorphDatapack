@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "creeper": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:creeper"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/creeper"
+    }
+}

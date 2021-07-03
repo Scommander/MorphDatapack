@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "enderman": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:enderman"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/enderman"
+    }
+}

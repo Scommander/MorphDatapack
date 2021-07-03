@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "pandamaingeneworried": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene:worried}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/pandamaingeneworried"
+    }
+}

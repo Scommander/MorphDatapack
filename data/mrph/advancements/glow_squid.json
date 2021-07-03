@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "glow_squid": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:glow_squid"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/glow_squid"
+    }
+}

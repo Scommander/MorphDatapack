@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagerprofessionminecraftfarmer": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{profession:'minecraft:farmer'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagerprofessionminecraftfarmer"
+    }
+}

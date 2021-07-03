@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "catcollarcolor13b": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:cat",
+                    "nbt": "{CollarColor:13b}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/catcollarcolor13b"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "wandering_trader": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:wandering_trader"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/wandering_trader"
+    }
+}

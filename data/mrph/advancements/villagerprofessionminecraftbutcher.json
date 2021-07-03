@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagerprofessionminecraftbutcher": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{profession:'minecraft:butcher'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagerprofessionminecraftbutcher"
+    }
+}

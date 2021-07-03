@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "pufferfish": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:pufferfish"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/pufferfish"
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "mule": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:mule"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/mule"
+    }
+}

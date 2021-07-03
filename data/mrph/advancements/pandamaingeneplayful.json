@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "pandamaingeneplayful": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:panda",
+                    "nbt": "{MainGene:playful}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/pandamaingeneplayful"
+    }
+}

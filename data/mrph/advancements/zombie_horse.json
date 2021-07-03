@@ -1,0 +1,15 @@
+{
+    "criteria": {
+        "zombie_horse": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:zombie_horse"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/zombie_horse"
+    }
+}

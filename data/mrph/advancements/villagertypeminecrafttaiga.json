@@ -1,0 +1,16 @@
+{
+    "criteria": {
+        "villagertypeminecrafttaiga": {
+            "trigger": "minecraft:player_killed_entity",
+            "conditions": {
+                "entity": {
+                    "type": "minecraft:villager",
+                    "nbt": "{VillagerData:{type:'minecraft:taiga'}}"
+                }
+            }
+        }
+    },
+    "rewards": {
+        "function": "mrph:generated/advancements/villagertypeminecrafttaiga"
+    }
+}
