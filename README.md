@@ -4,7 +4,7 @@
 
     "DatapackName" datapack by Scommander [https://www.youtube.com/c/scommander]
 
-    Download Datapack: [Download Link]
+    Download Datapack: [https://github.com/Scommander/MorphDatapack/releases]
 
 ## Introduction
 
