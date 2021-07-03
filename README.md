@@ -8,7 +8,7 @@
 
 ## Introduction
 
-* This morph datapack adds (almost) every single mob into the game as a valid morph. All totally multiplayer comptible! I'd recommend watching the showcase video on my YouTube channel to understand how to use the pack. LINK TO BE ADDED
+* This morph datapack adds (almost) every single mob into the game as a mob you can transform into along with access mob specific abilities. I'd recommend watching the showcase video on my YouTube channel to understand how to use the pack. LINK TO BE ADDED
 
 ## How to Use & Information
 
