@@ -473,6 +473,7 @@ f256.write('title @s times 0 60 20\n')
 f256.write('title @s subtitle [{"text":"but here you go - all morphs unlocked!","color":"white"}]\n')
 f256.write('title @s title [{"text":"SHAME","color":"red"}]\n')
 f256.write('playsound minecraft:block.note_block.pling master @s\n')
+f256.write('tag @s mrph_can_morph\n')
 f256.close()
 
 '''Generate entity IDs'''
