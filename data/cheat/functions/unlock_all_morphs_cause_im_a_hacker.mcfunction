@@ -2,6 +2,7 @@ title @s times 0 60 20
 title @s subtitle [{"text":"but here you go - all morphs unlocked!","color":"white"}]
 title @s title [{"text":"SHAME","color":"red"}]
 playsound minecraft:block.note_block.pling master @s
+tag @s add mrph_can_morph
 tag @s add mrph_axolotl
 tag @s add mrph_axolotlvariant0
 tag @s add mrph_axolotl
