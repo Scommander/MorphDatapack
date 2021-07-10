@@ -1,9 +1,10 @@
 #runs as player
+tag @s add mrph_can_morph
 
-execute if score @s mrph_death matches 1.. run function mrph:mob/unmorph
+execute if score @s mrph_death matches 1.. run function mrph:mob/unmorph_quietly
 scoreboard players reset @s mrph_death
 
-execute if score @s mrph_log_out matches 1.. run function mrph:mob/unmorph
+execute if score @s mrph_log_out matches 1.. run function mrph:mob/unmorph_quietly
 scoreboard players reset @s mrph_log_out
 
 
