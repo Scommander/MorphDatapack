@@ -9,11 +9,11 @@ data modify storage mrph_mule mrph_muleage-2147483648 set value ""
 execute if entity @s[tag=mrph_muleage-2147483648] run data modify storage mrph_mule mrph_muleage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_mueel1 0
-execute if score @s mrph_mueel1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_muleage1", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 319567672"}},{"color":"gray","nbt": "mrph_muleage-2147483648", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1583540237"}}]
+execute if score @s mrph_mueel1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_muleage1", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 171122550"}},{"color":"gray","nbt": "mrph_muleage-2147483648", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 762353309"}}]
 
-execute if score @s mrph_mueel1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_muleage1", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 319567672"}},{"color":"gray","nbt": "mrph_muleage-2147483648", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1583540237"}}]
+execute if score @s mrph_mueel1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_muleage1", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 171122550"}},{"color":"gray","nbt": "mrph_muleage-2147483648", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 762353309"}}]
 
-execute if score @s mrph_mueel1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_muleage1", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 319567672"}},{"color":"yellow","nbt": "mrph_muleage-2147483648", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1583540237"}}]
+execute if score @s mrph_mueel1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_muleage1", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 171122550"}},{"color":"yellow","nbt": "mrph_muleage-2147483648", "storage": "mrph_mule","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 762353309"}}]
 
 
 

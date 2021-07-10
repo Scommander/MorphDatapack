@@ -9,11 +9,11 @@ data modify storage mrph_piglin mrph_piglinisbaby1 set value ""
 execute if entity @s[tag=mrph_piglinisbaby1] run data modify storage mrph_piglin mrph_piglinisbaby1 set value "[Yes] "
 
 scoreboard players add @s mrph_pinli1 0
-execute if score @s mrph_pinli1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_piglinisbaby0", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1292222694"}},{"color":"gray","nbt": "mrph_piglinisbaby1", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 388254010"}}]
+execute if score @s mrph_pinli1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_piglinisbaby0", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 466399512"}},{"color":"gray","nbt": "mrph_piglinisbaby1", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 646193193"}}]
 
-execute if score @s mrph_pinli1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_piglinisbaby0", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1292222694"}},{"color":"gray","nbt": "mrph_piglinisbaby1", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 388254010"}}]
+execute if score @s mrph_pinli1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_piglinisbaby0", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 466399512"}},{"color":"gray","nbt": "mrph_piglinisbaby1", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 646193193"}}]
 
-execute if score @s mrph_pinli1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_piglinisbaby0", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1292222694"}},{"color":"yellow","nbt": "mrph_piglinisbaby1", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 388254010"}}]
+execute if score @s mrph_pinli1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_piglinisbaby0", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 466399512"}},{"color":"yellow","nbt": "mrph_piglinisbaby1", "storage": "mrph_piglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 646193193"}}]
 
 
 

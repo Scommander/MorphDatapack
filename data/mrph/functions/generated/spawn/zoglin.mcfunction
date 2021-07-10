@@ -9,11 +9,11 @@ data modify storage mrph_zoglin mrph_zoglinisbaby1 set value ""
 execute if entity @s[tag=mrph_zoglinisbaby1] run data modify storage mrph_zoglin mrph_zoglinisbaby1 set value "[Yes] "
 
 scoreboard players add @s mrph_zonli1 0
-execute if score @s mrph_zonli1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_zoglinisbaby0", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 892858508"}},{"color":"gray","nbt": "mrph_zoglinisbaby1", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 581502645"}}]
+execute if score @s mrph_zonli1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_zoglinisbaby0", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1487140859"}},{"color":"gray","nbt": "mrph_zoglinisbaby1", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 2026614927"}}]
 
-execute if score @s mrph_zonli1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_zoglinisbaby0", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 892858508"}},{"color":"gray","nbt": "mrph_zoglinisbaby1", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 581502645"}}]
+execute if score @s mrph_zonli1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_zoglinisbaby0", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1487140859"}},{"color":"gray","nbt": "mrph_zoglinisbaby1", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 2026614927"}}]
 
-execute if score @s mrph_zonli1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_zoglinisbaby0", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 892858508"}},{"color":"yellow","nbt": "mrph_zoglinisbaby1", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 581502645"}}]
+execute if score @s mrph_zonli1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_zoglinisbaby0", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1487140859"}},{"color":"yellow","nbt": "mrph_zoglinisbaby1", "storage": "mrph_zoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 2026614927"}}]
 
 
 

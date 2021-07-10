@@ -9,11 +9,11 @@ data modify storage mrph_ocelot mrph_ocelotage-2147483648 set value ""
 execute if entity @s[tag=mrph_ocelotage-2147483648] run data modify storage mrph_ocelot mrph_ocelotage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_octlo1 0
-execute if score @s mrph_octlo1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_ocelotage1", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 681213991"}},{"color":"gray","nbt": "mrph_ocelotage-2147483648", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1798687743"}}]
+execute if score @s mrph_octlo1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_ocelotage1", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 612742946"}},{"color":"gray","nbt": "mrph_ocelotage-2147483648", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 23453906"}}]
 
-execute if score @s mrph_octlo1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_ocelotage1", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 681213991"}},{"color":"gray","nbt": "mrph_ocelotage-2147483648", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1798687743"}}]
+execute if score @s mrph_octlo1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_ocelotage1", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 612742946"}},{"color":"gray","nbt": "mrph_ocelotage-2147483648", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 23453906"}}]
 
-execute if score @s mrph_octlo1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_ocelotage1", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 681213991"}},{"color":"yellow","nbt": "mrph_ocelotage-2147483648", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1798687743"}}]
+execute if score @s mrph_octlo1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_ocelotage1", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 612742946"}},{"color":"yellow","nbt": "mrph_ocelotage-2147483648", "storage": "mrph_ocelot","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 23453906"}}]
 
 
 

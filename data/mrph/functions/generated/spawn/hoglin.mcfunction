@@ -9,11 +9,11 @@ data modify storage mrph_hoglin mrph_hoglinage-2147483648 set value ""
 execute if entity @s[tag=mrph_hoglinage-2147483648] run data modify storage mrph_hoglin mrph_hoglinage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_honli1 0
-execute if score @s mrph_honli1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_hoglinage1", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 295958337"}},{"color":"gray","nbt": "mrph_hoglinage-2147483648", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 923340555"}}]
+execute if score @s mrph_honli1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_hoglinage1", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 160723697"}},{"color":"gray","nbt": "mrph_hoglinage-2147483648", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 2083010341"}}]
 
-execute if score @s mrph_honli1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_hoglinage1", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 295958337"}},{"color":"gray","nbt": "mrph_hoglinage-2147483648", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 923340555"}}]
+execute if score @s mrph_honli1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_hoglinage1", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 160723697"}},{"color":"gray","nbt": "mrph_hoglinage-2147483648", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 2083010341"}}]
 
-execute if score @s mrph_honli1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_hoglinage1", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 295958337"}},{"color":"yellow","nbt": "mrph_hoglinage-2147483648", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 923340555"}}]
+execute if score @s mrph_honli1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_hoglinage1", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 160723697"}},{"color":"yellow","nbt": "mrph_hoglinage-2147483648", "storage": "mrph_hoglin","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 2083010341"}}]
 
 
 

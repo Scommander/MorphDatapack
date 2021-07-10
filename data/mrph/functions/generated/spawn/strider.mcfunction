@@ -9,11 +9,11 @@ data modify storage mrph_strider mrph_striderage-2147483648 set value ""
 execute if entity @s[tag=mrph_striderage-2147483648] run data modify storage mrph_strider mrph_striderage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_strie1 0
-execute if score @s mrph_strie1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_striderage1", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 305433763"}},{"color":"gray","nbt": "mrph_striderage-2147483648", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 162576220"}}]
+execute if score @s mrph_strie1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_striderage1", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 626269870"}},{"color":"gray","nbt": "mrph_striderage-2147483648", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 508884387"}}]
 
-execute if score @s mrph_strie1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_striderage1", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 305433763"}},{"color":"gray","nbt": "mrph_striderage-2147483648", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 162576220"}}]
+execute if score @s mrph_strie1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_striderage1", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 626269870"}},{"color":"gray","nbt": "mrph_striderage-2147483648", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 508884387"}}]
 
-execute if score @s mrph_strie1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_striderage1", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 305433763"}},{"color":"yellow","nbt": "mrph_striderage-2147483648", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 162576220"}}]
+execute if score @s mrph_strie1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_striderage1", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 626269870"}},{"color":"yellow","nbt": "mrph_striderage-2147483648", "storage": "mrph_strider","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 508884387"}}]
 
 
 

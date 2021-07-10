@@ -9,11 +9,11 @@ data modify storage mrph_mooshroom mrph_mooshroomtypebrown set value ""
 execute if entity @s[tag=mrph_mooshroomtypebrown] run data modify storage mrph_mooshroom mrph_mooshroomtypebrown set value "[Brown] "
 
 scoreboard players add @s mrph_momso1 0
-execute if score @s mrph_momso1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"gray","nbt": "mrph_mooshroomtypered", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 945833793"}},{"color":"gray","nbt": "mrph_mooshroomtypebrown", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1200429561"}}]
+execute if score @s mrph_momso1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"gray","nbt": "mrph_mooshroomtypered", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1342927909"}},{"color":"gray","nbt": "mrph_mooshroomtypebrown", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1860756668"}}]
 
-execute if score @s mrph_momso1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"yellow","nbt": "mrph_mooshroomtypered", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 945833793"}},{"color":"gray","nbt": "mrph_mooshroomtypebrown", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1200429561"}}]
+execute if score @s mrph_momso1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"yellow","nbt": "mrph_mooshroomtypered", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1342927909"}},{"color":"gray","nbt": "mrph_mooshroomtypebrown", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1860756668"}}]
 
-execute if score @s mrph_momso1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"gray","nbt": "mrph_mooshroomtypered", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 945833793"}},{"color":"yellow","nbt": "mrph_mooshroomtypebrown", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1200429561"}}]
+execute if score @s mrph_momso1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"gray","nbt": "mrph_mooshroomtypered", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1342927909"}},{"color":"yellow","nbt": "mrph_mooshroomtypebrown", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1860756668"}}]
 
 
 #sets storage to mob variants
@@ -26,11 +26,11 @@ data modify storage mrph_mooshroom mrph_mooshroomage-2147483648 set value ""
 execute if entity @s[tag=mrph_mooshroomage-2147483648] run data modify storage mrph_mooshroom mrph_mooshroomage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_momso2 0
-execute if score @s mrph_momso2 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_mooshroomage1", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1078963599"}},{"color":"gray","nbt": "mrph_mooshroomage-2147483648", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 5674569"}}]
+execute if score @s mrph_momso2 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_mooshroomage1", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 365269251"}},{"color":"gray","nbt": "mrph_mooshroomage-2147483648", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 364338033"}}]
 
-execute if score @s mrph_momso2 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_mooshroomage1", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1078963599"}},{"color":"gray","nbt": "mrph_mooshroomage-2147483648", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 5674569"}}]
+execute if score @s mrph_momso2 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_mooshroomage1", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 365269251"}},{"color":"gray","nbt": "mrph_mooshroomage-2147483648", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 364338033"}}]
 
-execute if score @s mrph_momso2 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_mooshroomage1", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1078963599"}},{"color":"yellow","nbt": "mrph_mooshroomage-2147483648", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 5674569"}}]
+execute if score @s mrph_momso2 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_mooshroomage1", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 365269251"}},{"color":"yellow","nbt": "mrph_mooshroomage-2147483648", "storage": "mrph_mooshroom","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 364338033"}}]
 
 
 

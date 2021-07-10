@@ -9,11 +9,11 @@ data modify storage mrph_fox mrph_foxtypesnow set value ""
 execute if entity @s[tag=mrph_foxtypesnow] run data modify storage mrph_fox mrph_foxtypesnow set value "[Snowy] "
 
 scoreboard players add @s mrph_foxo1 0
-execute if score @s mrph_foxo1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"gray","nbt": "mrph_foxtypered", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1823905142"}},{"color":"gray","nbt": "mrph_foxtypesnow", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 640370595"}}]
+execute if score @s mrph_foxo1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"gray","nbt": "mrph_foxtypered", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 215972069"}},{"color":"gray","nbt": "mrph_foxtypesnow", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1370297393"}}]
 
-execute if score @s mrph_foxo1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"yellow","nbt": "mrph_foxtypered", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1823905142"}},{"color":"gray","nbt": "mrph_foxtypesnow", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 640370595"}}]
+execute if score @s mrph_foxo1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"yellow","nbt": "mrph_foxtypered", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 215972069"}},{"color":"gray","nbt": "mrph_foxtypesnow", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1370297393"}}]
 
-execute if score @s mrph_foxo1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"gray","nbt": "mrph_foxtypered", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1823905142"}},{"color":"yellow","nbt": "mrph_foxtypesnow", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 640370595"}}]
+execute if score @s mrph_foxo1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Type: "},{"color":"gray","nbt": "mrph_foxtypered", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 215972069"}},{"color":"yellow","nbt": "mrph_foxtypesnow", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1370297393"}}]
 
 
 #sets storage to mob variants
@@ -26,11 +26,11 @@ data modify storage mrph_fox mrph_foxage-2147483648 set value ""
 execute if entity @s[tag=mrph_foxage-2147483648] run data modify storage mrph_fox mrph_foxage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_foxo2 0
-execute if score @s mrph_foxo2 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_foxage1", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1489837371"}},{"color":"gray","nbt": "mrph_foxage-2147483648", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1363710784"}}]
+execute if score @s mrph_foxo2 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_foxage1", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1940842515"}},{"color":"gray","nbt": "mrph_foxage-2147483648", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1180239789"}}]
 
-execute if score @s mrph_foxo2 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_foxage1", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1489837371"}},{"color":"gray","nbt": "mrph_foxage-2147483648", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1363710784"}}]
+execute if score @s mrph_foxo2 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_foxage1", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1940842515"}},{"color":"gray","nbt": "mrph_foxage-2147483648", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1180239789"}}]
 
-execute if score @s mrph_foxo2 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_foxage1", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1489837371"}},{"color":"yellow","nbt": "mrph_foxage-2147483648", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1363710784"}}]
+execute if score @s mrph_foxo2 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_foxage1", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1940842515"}},{"color":"yellow","nbt": "mrph_foxage-2147483648", "storage": "mrph_fox","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1180239789"}}]
 
 
 

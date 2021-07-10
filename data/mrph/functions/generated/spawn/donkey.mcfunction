@@ -9,11 +9,11 @@ data modify storage mrph_donkey mrph_donkeyage-2147483648 set value ""
 execute if entity @s[tag=mrph_donkeyage-2147483648] run data modify storage mrph_donkey mrph_donkeyage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_doyke1 0
-execute if score @s mrph_doyke1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_donkeyage1", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1494961586"}},{"color":"gray","nbt": "mrph_donkeyage-2147483648", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 62134500"}}]
+execute if score @s mrph_doyke1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_donkeyage1", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1739018385"}},{"color":"gray","nbt": "mrph_donkeyage-2147483648", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1203873500"}}]
 
-execute if score @s mrph_doyke1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_donkeyage1", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1494961586"}},{"color":"gray","nbt": "mrph_donkeyage-2147483648", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 62134500"}}]
+execute if score @s mrph_doyke1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_donkeyage1", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1739018385"}},{"color":"gray","nbt": "mrph_donkeyage-2147483648", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1203873500"}}]
 
-execute if score @s mrph_doyke1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_donkeyage1", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1494961586"}},{"color":"yellow","nbt": "mrph_donkeyage-2147483648", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 62134500"}}]
+execute if score @s mrph_doyke1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_donkeyage1", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1739018385"}},{"color":"yellow","nbt": "mrph_donkeyage-2147483648", "storage": "mrph_donkey","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1203873500"}}]
 
 
 

@@ -9,11 +9,11 @@ data modify storage mrph_zombie mrph_zombieisbaby1 set value ""
 execute if entity @s[tag=mrph_zombieisbaby1] run data modify storage mrph_zombie mrph_zombieisbaby1 set value "[Yes] "
 
 scoreboard players add @s mrph_zoebi1 0
-execute if score @s mrph_zoebi1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_zombieisbaby0", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1754176196"}},{"color":"gray","nbt": "mrph_zombieisbaby1", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 801757855"}}]
+execute if score @s mrph_zoebi1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_zombieisbaby0", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 825679962"}},{"color":"gray","nbt": "mrph_zombieisbaby1", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 443119691"}}]
 
-execute if score @s mrph_zoebi1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_zombieisbaby0", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1754176196"}},{"color":"gray","nbt": "mrph_zombieisbaby1", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 801757855"}}]
+execute if score @s mrph_zoebi1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_zombieisbaby0", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 825679962"}},{"color":"gray","nbt": "mrph_zombieisbaby1", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 443119691"}}]
 
-execute if score @s mrph_zoebi1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_zombieisbaby0", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1754176196"}},{"color":"yellow","nbt": "mrph_zombieisbaby1", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 801757855"}}]
+execute if score @s mrph_zoebi1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_zombieisbaby0", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 825679962"}},{"color":"yellow","nbt": "mrph_zombieisbaby1", "storage": "mrph_zombie","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 443119691"}}]
 
 
 

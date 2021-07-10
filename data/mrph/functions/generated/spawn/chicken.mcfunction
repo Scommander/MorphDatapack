@@ -9,11 +9,11 @@ data modify storage mrph_chicken mrph_chickenage-2147483648 set value ""
 execute if entity @s[tag=mrph_chickenage-2147483648] run data modify storage mrph_chicken mrph_chickenage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_chnce1 0
-execute if score @s mrph_chnce1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_chickenage1", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 907182632"}},{"color":"gray","nbt": "mrph_chickenage-2147483648", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 300724726"}}]
+execute if score @s mrph_chnce1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_chickenage1", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 257461326"}},{"color":"gray","nbt": "mrph_chickenage-2147483648", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 966166220"}}]
 
-execute if score @s mrph_chnce1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_chickenage1", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 907182632"}},{"color":"gray","nbt": "mrph_chickenage-2147483648", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 300724726"}}]
+execute if score @s mrph_chnce1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_chickenage1", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 257461326"}},{"color":"gray","nbt": "mrph_chickenage-2147483648", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 966166220"}}]
 
-execute if score @s mrph_chnce1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_chickenage1", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 907182632"}},{"color":"yellow","nbt": "mrph_chickenage-2147483648", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 300724726"}}]
+execute if score @s mrph_chnce1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_chickenage1", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 257461326"}},{"color":"yellow","nbt": "mrph_chickenage-2147483648", "storage": "mrph_chicken","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 966166220"}}]
 
 
 

@@ -9,11 +9,11 @@ data modify storage mrph_turtle mrph_turtleage-2147483648 set value ""
 execute if entity @s[tag=mrph_turtleage-2147483648] run data modify storage mrph_turtle mrph_turtleage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_tuetl1 0
-execute if score @s mrph_tuetl1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_turtleage1", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1518181429"}},{"color":"gray","nbt": "mrph_turtleage-2147483648", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 333268497"}}]
+execute if score @s mrph_tuetl1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_turtleage1", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 59919672"}},{"color":"gray","nbt": "mrph_turtleage-2147483648", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 270533337"}}]
 
-execute if score @s mrph_tuetl1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_turtleage1", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1518181429"}},{"color":"gray","nbt": "mrph_turtleage-2147483648", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 333268497"}}]
+execute if score @s mrph_tuetl1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_turtleage1", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 59919672"}},{"color":"gray","nbt": "mrph_turtleage-2147483648", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 270533337"}}]
 
-execute if score @s mrph_tuetl1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_turtleage1", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1518181429"}},{"color":"yellow","nbt": "mrph_turtleage-2147483648", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 333268497"}}]
+execute if score @s mrph_tuetl1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_turtleage1", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 59919672"}},{"color":"yellow","nbt": "mrph_turtleage-2147483648", "storage": "mrph_turtle","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 270533337"}}]
 
 
 

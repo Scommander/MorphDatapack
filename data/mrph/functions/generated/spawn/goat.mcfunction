@@ -9,11 +9,11 @@ data modify storage mrph_goat mrph_goatage-2147483648 set value ""
 execute if entity @s[tag=mrph_goatage-2147483648] run data modify storage mrph_goat mrph_goatage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_gotta1 0
-execute if score @s mrph_gotta1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_goatage1", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 919926261"}},{"color":"gray","nbt": "mrph_goatage-2147483648", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1519268788"}}]
+execute if score @s mrph_gotta1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_goatage1", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1944369431"}},{"color":"gray","nbt": "mrph_goatage-2147483648", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 123825547"}}]
 
-execute if score @s mrph_gotta1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_goatage1", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 919926261"}},{"color":"gray","nbt": "mrph_goatage-2147483648", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1519268788"}}]
+execute if score @s mrph_gotta1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_goatage1", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1944369431"}},{"color":"gray","nbt": "mrph_goatage-2147483648", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 123825547"}}]
 
-execute if score @s mrph_gotta1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_goatage1", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 919926261"}},{"color":"yellow","nbt": "mrph_goatage-2147483648", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1519268788"}}]
+execute if score @s mrph_gotta1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_goatage1", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1944369431"}},{"color":"yellow","nbt": "mrph_goatage-2147483648", "storage": "mrph_goat","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 123825547"}}]
 
 
 

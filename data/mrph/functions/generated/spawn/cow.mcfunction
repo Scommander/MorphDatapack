@@ -9,11 +9,11 @@ data modify storage mrph_cow mrph_cowage-2147483648 set value ""
 execute if entity @s[tag=mrph_cowage-2147483648] run data modify storage mrph_cow mrph_cowage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_cowo1 0
-execute if score @s mrph_cowo1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_cowage1", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1639344490"}},{"color":"gray","nbt": "mrph_cowage-2147483648", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1027757850"}}]
+execute if score @s mrph_cowo1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_cowage1", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1911256876"}},{"color":"gray","nbt": "mrph_cowage-2147483648", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1922255308"}}]
 
-execute if score @s mrph_cowo1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_cowage1", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1639344490"}},{"color":"gray","nbt": "mrph_cowage-2147483648", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1027757850"}}]
+execute if score @s mrph_cowo1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_cowage1", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1911256876"}},{"color":"gray","nbt": "mrph_cowage-2147483648", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1922255308"}}]
 
-execute if score @s mrph_cowo1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_cowage1", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1639344490"}},{"color":"yellow","nbt": "mrph_cowage-2147483648", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1027757850"}}]
+execute if score @s mrph_cowo1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_cowage1", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1911256876"}},{"color":"yellow","nbt": "mrph_cowage-2147483648", "storage": "mrph_cow","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1922255308"}}]
 
 
 

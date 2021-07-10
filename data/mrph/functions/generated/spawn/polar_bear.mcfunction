@@ -9,11 +9,11 @@ data modify storage mrph_polar_bear mrph_polar_bearage-2147483648 set value ""
 execute if entity @s[tag=mrph_polar_bearage-2147483648] run data modify storage mrph_polar_bear mrph_polar_bearage-2147483648 set value "[Yes] "
 
 scoreboard players add @s mrph_poraa1 0
-execute if score @s mrph_poraa1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_polar_bearage1", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 2058859892"}},{"color":"gray","nbt": "mrph_polar_bearage-2147483648", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1149435725"}}]
+execute if score @s mrph_poraa1 matches 0 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_polar_bearage1", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 91779579"}},{"color":"gray","nbt": "mrph_polar_bearage-2147483648", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 774220906"}}]
 
-execute if score @s mrph_poraa1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_polar_bearage1", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 2058859892"}},{"color":"gray","nbt": "mrph_polar_bearage-2147483648", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1149435725"}}]
+execute if score @s mrph_poraa1 matches 1 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"yellow","nbt": "mrph_polar_bearage1", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 91779579"}},{"color":"gray","nbt": "mrph_polar_bearage-2147483648", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 774220906"}}]
 
-execute if score @s mrph_poraa1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_polar_bearage1", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 2058859892"}},{"color":"yellow","nbt": "mrph_polar_bearage-2147483648", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 1149435725"}}]
+execute if score @s mrph_poraa1 matches 2 run tellraw @s ["",{"color":"white","bold":false,"text":"Baby?: "},{"color":"gray","nbt": "mrph_polar_bearage1", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 91779579"}},{"color":"yellow","nbt": "mrph_polar_bearage-2147483648", "storage": "mrph_polar_bear","clickEvent":{"action":"run_command","value":"/trigger mrph_subtrigger set 774220906"}}]
 
 
 
